@@ -1,0 +1,1 @@
+mysqlshow -u user -p 12345 alx_book_store
