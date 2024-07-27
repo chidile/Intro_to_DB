@@ -8,6 +8,8 @@ SELECT
     IS_NULLABLE  
 FROM   
     INFORMATION_SCHEMA.COLUMNS,
-    COLUMN_TYPE
+    COLUMN_TYPE,
+    TABLE_SCHEMA = 'alx_book_store',
+    TABLE_NAME = 'Books'
 WHERE   
-    TABLE_NAME = 'books';
+    TABLE_NAME = 'Books';
