@@ -1,1 +1,1 @@
-mysql -u user -p 12345 -e "SHOW TABLES;" alx_book_store
+mysql -u user -p 12345 -e "SHOW TABLES;" USE alx_book_store;
